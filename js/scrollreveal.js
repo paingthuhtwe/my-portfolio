@@ -1,5 +1,5 @@
 window.sr = ScrollReveal({ reset: true });
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   ScrollReveal({
     origin: "bottom",
     duration: 2000,
@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     mobile: false,
     delay: 100,
   }).reveal(".sBottom", {
-    interval: 100
+    interval: 100,
   });
   ScrollReveal({
     origin: "left",
@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     mobile: false,
     delay: 100,
   }).reveal(".sLeft", {
-    interval: 100
+    interval: 100,
   });
   ScrollReveal({
     origin: "right",
@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
     mobile: false,
     delay: 100,
   }).reveal(".sRight", {
-    interval: 100
+    interval: 100,
   });
   ScrollReveal({
     origin: "top",
@@ -42,7 +42,6 @@ window.addEventListener('DOMContentLoaded', () => {
     mobile: false,
     delay: 100,
   }).reveal(".sTop", {
-    interval: 100
+    interval: 100,
   });
-
 });
